@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .upper-container {
+    width: 50%;
+    height: 10%;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+  }
+  .upper-container1 {
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+  }
+  #Task {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  #Lists {
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+  }
+  .upper-container2 {
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  #addlist {
+    position: absolute;
+    font-size: 25px;
+    width: 80%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+    padding-top: 27px;
+  }
+  #circle {
+    position: absolute;
+    width: 10%;
+    height: 100%; 
+  }
+  .abcd {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .card1 {
+    /* margin-top: 10px; */
+    border: 1.5px solid rgb(22, 22, 22);
+    height: 45vh;
+    width: 15%;
+    margin-top: 40px;
+    /* padding:4px; */
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    text-align: center;
+    /* justify-content: center; */
+    display: inline-block;
+    margin: auto;
+  }
+  .div1 {
+    position: absolute;
+    top: 15px;
+    font-size: 25px;
+    right: 0;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: blue;
+    border-bottom: 1px solid black;
+  }
+  .div2 {
+    width: 75%;
+    height: 10%;
+    font-size: 20px;
+    color: blueviolet;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+  }
+  .div3 {
+    width: 75%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 18px;
+  }
+  #check {
+    width: 15px;
+    height: 14px;
+    margin-left: 10px;
+  }
+  @media (max-width: 600px) {
+    .upper-container {
+      width: 80%;
+    }
+    .upper-container1 {
+      width: 80%;
+      height: 50%;
+    }
+    #addlist {
+      display: none;
+    }
+    #circle {
+      right: 45px;
+    }
+    .div2 {
+      display: none;
+    }
+    .div3 {
+      display: none;
+    }
+    .div1 {
+      border: none;
+      color: grey;
+    }
+    .card1 {
+      width: 90%;
+      height: 12vh;
+      margin-top: 30px;
+    }
+    .card2 {
+      width: 90%;
+      height: 12vh;
+      margin-top: 30px;
+    }
+    .card3 {
+      width: 90%;
+      height: 12vh;
+      margin-top: 30px;
+    }
+  }
+  .notshow{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}  
+.pop-up{
+  position:absolute;
+  left: 37%;
+  top: 30%;
+  height: 20vh;
+  width: 27%;
+  border: 1.5px solid blue;
+  border-radius: 20px;
+  color: blue;
+  font-size: 18px;
+  box-shadow: 5px 5px 10px rgb(56, 56, 192);
+  background-color: white;
+}
+#add-new{
+  opacity: 0.8;
+  font-size: 17px;
+
+}
+.pop-upbar{
+  margin-top: 20px;
+  border-radius: 4px;
+  width: 85%;
+  height: 27%;
+  border: 1.5px solid blue;
+  box-shadow: 1px 1px 3px blue;
+
+}
+.pop-up-button{
+  position: relative;
+  background-color: blue;
+  color: white;
+  margin-top: 3%;
+  height: auto;
+  width: auto;
+  font-size: 16px;
+  border-radius: 18px;
+  padding: 5px;
+} 

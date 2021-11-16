@@ -1,0 +1,158 @@
+.upper-container{
+    margin: auto;
+}
+
+
+
+.heading{
+    text-align: center;
+}
+.back{
+   width: 50%;
+   height: 10%;
+   margin: auto;
+   position: relative; 
+   margin-top: 50px; 
+   box-sizing: border-box;
+padding-left: 020%;   
+}
+.back-text{
+    position: absolute;
+    font-size: 20px;
+    width: 80%;
+    height: 100%;
+    left: 6%;
+   margin:0px;
+padding-left: 40%;
+    top: 0;
+    font-weight: bold;
+    opacity: 1;
+    padding-top: 10px;
+
+}
+.card{
+    border: 1.5px solid rgb(22, 22, 22);
+    height: 40vh;
+    width: 20%;
+    padding-top: 10px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.div1{
+    position: absolute;
+    top: 15px;
+    font-size: 25px;
+    right: 0;
+    width: 75%;
+    text-align: left;
+    height: 20%;
+    color: blue;
+    border-bottom: 1px solid black;
+}
+.div2{
+    width: 75%;
+    height: 10%;
+    font-size: 20px;
+    color: blueviolet;
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    right: 33%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.div3{
+    width: 75%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: left;
+    font-size: 18px;
+    left: 10%;
+}
+.plus{
+    position: absolute;
+right: 5px;
+    bottom: 5px;
+}
+.notshow{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+@media (max-width:600px) {
+   
+    .heading {
+      width: 60%;
+      height: 50%;
+    }
+    .back{
+        position: absolute;
+        top: -25px;
+        right: 25px;
+    }
+    .back-text {
+      display: none;
+    }
+    #circle {
+      right: 45px;
+    }
+    .div2 {
+      display: none;
+    }
+    .div3 {
+      display: none;
+    }
+    .div1 {
+      border: none;
+      color: grey;
+    }
+    .card {
+      width: 90%;
+      height: 12vh;
+      margin-top: 30px;
+    }
+    
+  }
+  .pop-up{
+    position:absolute;
+    left: 25%;
+    top: 30%;
+    height: 20vh;
+    width: 50%;
+    border: 1.5px solid blue;
+    border-radius: 20px;
+    color: blue;
+    font-size: 18px;
+    box-shadow: 5px 5px 10px rgb(56, 56, 192);
+    background-color: white;
+  }
+  #add-new{
+    opacity: 0.8;
+    font-size: 17px;
+  
+  }
+  .pop-upbar{
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 85%;
+    height: 27%;
+    border: 1.5px solid blue;
+    box-shadow: 1px 1px 3px blue;
+  
+  }
+  .pop-up-button{
+    position: relative;
+    background-color: blue;
+    color: white;
+    margin-top: 3%;
+    height: auto;
+    width: auto;
+    font-size: 16px;
+    border-radius: 18px;
+    padding: 5px;
+  } 
